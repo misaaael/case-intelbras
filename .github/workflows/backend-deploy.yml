@@ -1,0 +1,21 @@
+name: Backend CI
+
+on:
+  push:
+    branches:
+      - feature/CASE-8-github-actions
+    paths:
+      - "backend/**"
+      - ".github/workflows/backend-deploy.yml"
+
+jobs:
+  test-workflow:
+    name: Testar GitHub Actions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Teste inicial
+        run: echo "Pipeline backend funcionando"

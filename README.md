@@ -23,7 +23,7 @@ case-intelbras/
 
 API desenvolvida em Django REST Framework.
 
-> https://github.com/misaaael/case-intelbras-backend
+> https://github.com/misaaael/backend-django
 
 ---
 
@@ -31,7 +31,7 @@ API desenvolvida em Django REST Framework.
 
 Interface desenvolvida em React + Vite.
 
-> https://github.com/misaaael/case-intelbras-frontend
+> https://github.com/misaaael/front-react
 
 ---
 
@@ -41,7 +41,6 @@ Interface desenvolvida em React + Vite.
 
 - Python
 - Django
-- Django REST Framework
 
 ### Frontend
 
@@ -52,8 +51,6 @@ Interface desenvolvida em React + Vite.
 ### Infraestrutura
 
 - Docker
-- Docker Compose
-
 ---
 
 # Executando o projeto
@@ -110,14 +107,6 @@ A pasta `infra/` contém a orquestração local da aplicação através do Docke
 
 Esta estrutura foi criada para facilitar uma futura migração para serviços de nuvem, como AWS ECS/Fargate, mantendo frontend e backend desacoplados.
 
----
-
-# Próximos Passos
-
-- Arquitetura AWS
-- Observabilidade (logs, métricas e alertas)
-- Estratégias de escalabilidade
-- Pipeline de CI/CD
 
 ---
 

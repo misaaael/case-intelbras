@@ -1,0 +1,14 @@
+# Repositórios independentes
+backend/
+frontend/
+
+# Arquivos locais
+chave.txt
+chave.txt.pub
+
+# Dependências locais (caso existam na raiz)
+node_modules/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

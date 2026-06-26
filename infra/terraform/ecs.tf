@@ -43,7 +43,7 @@ resource "aws_ecs_task_definition" "backend" {
       }]
 
       environment = [
-        { name = "DEBUG", value = "True" },
+        { name = "DEBUG", value = "False" },
         { name = "SECRET_KEY", value = var.django_secret_key },
         { name = "ALLOWED_HOSTS", value = "*" },
         { name = "INTELBRAS_BASE_URL", value = var.intelbras_base_url }

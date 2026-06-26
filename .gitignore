@@ -5,10 +5,35 @@ frontend/
 # Arquivos locais
 chave.txt
 chave.txt.pub
+.env
+.env.*
 
-# Dependências locais (caso existam na raiz)
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+db.sqlite3
+
+# Node
 node_modules/
+dist/
+dist-ssr/
 
-# Arquivos do sistema
+# Terraform
+**/.terraform/
+**/.terraform/*
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/crash.*.log
+**/*.tfvars
+**/*.tfvars.json
+
+# Sistema/IDE
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/

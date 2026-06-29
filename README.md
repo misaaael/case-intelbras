@@ -6,7 +6,7 @@ A solução foi organizada em três partes independentes:
 
 - **Backend:** Django REST Framework
 - **Frontend:** React + Vite
-- **Infraestrutura:** Docker Compose e Terraform (AWS)
+- **Infraestrutura:** Docker Compose, Terraform (AWS) e proteção contra bots utilizando Cloudflare Turnstile
 
 ---
 
